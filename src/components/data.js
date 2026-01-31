@@ -10,6 +10,7 @@ export const PIZZAS = [
     {
         id: 1,
         nombre: "Margarita",
+        esEspecial: true,
         img: margarita,
         precio: 10,
         ingredientes: ["Tomate", "Mozzarella", "Albahaca"]
@@ -17,6 +18,7 @@ export const PIZZAS = [
     {
         id: 2,
         nombre: "Pepperoni",
+        esEspecial: true,
         img: pepperoni,
         precio: 12,
         ingredientes: ["Pepperoni", "Mozzarella", "Salsa"]
@@ -24,6 +26,7 @@ export const PIZZAS = [
     {
         id: 3,
         nombre: "Hawaiana",
+        esEspecial: true,
         img: hawaiana,
         precio: 11,
         ingredientes: ["Piña", "Jamón", "Queso"]
@@ -31,6 +34,7 @@ export const PIZZAS = [
     {
         id: 4,
         nombre: "Cuatro Quesos",
+        esEspecial: true,
         img: cuatroQuesos,
         precio: 13,
         ingredientes: ["Mozzarella", "Gorgonzola", "Parmesano", "Fontina"]
@@ -38,6 +42,7 @@ export const PIZZAS = [
     {
         id: 5,
         nombre: "Vegetariana",
+        esEspecial: true,
         img: vegetariana,
         precio: 11,
         ingredientes: ["Pimientos", "Cebolla", "Champiñones"]
@@ -45,6 +50,7 @@ export const PIZZAS = [
     {
         id: 6,
         nombre: "BBQ Chicken",
+        esEspecial: false,
         img: bbqChicken,
         precio: 14,
         ingredientes: ["Pollo", "Salsa BBQ", "Cebolla Morada"]
