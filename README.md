@@ -58,7 +58,8 @@ pizza_menu/
 ├── src/
 │   ├── assets/          # Imágenes de las pizzas 
 │   ├── components/      # Componentes reutilizables
-│   │   ├── menu.jsx     # Lógica y datos del menú
+│   │   ├── data.js      # Datos de las pizzas
+│   │   ├── menu.jsx     # Lógica y renderizado del menú
 │   │   └── menu.css     # Estilos de los componentes
 │   ├── App.jsx          # Estructura principal, Header y Footer
 │   ├── App.css          # Estilos globales de la aplicación
